@@ -7,11 +7,11 @@ It doesn't do anything else, so to actually compile your app you should use [her
 Usage
 -----
 
-To use this buildpack at it to the start of your buildpacks with the command:
+To use this buildpack add it to the start of your buildpacks list with:
 
     $ heroku buildpacks:add --index 1 https://github.com/tastemade/heroku-buildpack-ffmpeg --app <app-name>
 
-Confirm that it is in the path with:
+Confirm that it is in the list with:
 
     $ heroku buildpacks --app <app-name>
 
