@@ -6,24 +6,14 @@ It doesn't do anything else, so to actually compile your app you should use [her
 
 Usage
 -----
-To use this buildpack, you should prepare .buildpacks file that contains this buildpack url and your real buildpack url.  
 
-    $ ls
-    .buildpacks
-    ...
-    
-    $ cat .buildpacks
-    https://github.com/shunjikonishi/heroku-buildpack-ffmpeg
-    https://github.com/heroku/heroku-buildpack-play
+To use this buildpack at it to the start of your buildpacks with the command:
 
-    $ heroku create --buildpack https://github.com/ddollar/heroku-buildpack-multi
+    $ heroku buildpacks:add --index 1 https://github.com/tastemade/heroku-buildpack-ffmpeg --app <app-name>
 
-    $ git push heroku master
-    ...
+Confirm that it is in the path with:
 
-You can verify installing ffmpeg by following command.
-
-    $ heroku run "ffmpeg -version"
+    $ heroku buildpacks --app <app-name>
 
 Hacking
 -------
