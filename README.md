@@ -29,4 +29,4 @@ Hacking
 -------
 If you want to use your own ffmpeg binary, fork and rewrite following line.
 
-https://github.com/shunjikonishi/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
+https://github.com/megaphone/heroku-buildpack-ffmpeg/blob/master/bin/compile#L10
