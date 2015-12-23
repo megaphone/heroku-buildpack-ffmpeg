@@ -15,7 +15,7 @@ Confirm that it is in the list with:
 
     $ heroku buildpacks --app <app-name>
 
-    === editor-dev Buildpack URLs
+    === <app-name> Buildpack URLs
     1. https://github.com/tastemade/heroku-buildpack-ffmpeg
     2. heroku/ruby
 
