@@ -15,6 +15,10 @@ Confirm that it is in the list with:
 
     $ heroku buildpacks --app <app-name>
 
+    === editor-dev Buildpack URLs
+    1. https://github.com/tastemade/heroku-buildpack-ffmpeg
+    2. heroku/ruby
+
 Hacking
 -------
 If you want to use your own ffmpeg binary, fork and rewrite following line.
